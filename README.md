@@ -1,5 +1,8 @@
-# atomic_red_team_gui
-Windows GUI/Execution Engine for Atomic Red Team Atomics
+# Atomic_Red_Team_Simulator
+Windows GUI/Execution Engine for Atomic Red Team Atomics - Perfect to test SOC Detection and fine tune the alerts 
+
+#Test Scenarios
+When you integrate / onboard infrastructure to SIEM /third party soc you may need to goahead believing the marketing stuffs , alarms may not trigger in real world scenarios when an actual incident occur you may endup compromising your critical infrastructure , this is the perfect way to simulate almost 400+ tests without any trouble . Create a VM (windows+linux) onboard with SIEM (make sure symon logs are onboarded to  siem platform) For linux make sure advance logging with syslog must be enabled . 
 
 # Atomic Red Team Overview
 The Atomic Red Team project, https://atomicredteam.io/, is an open source collection of behavior definitions mapping to the MITRE ATT&CK framework maintained by Red Canary. Red Canary describes them as "Our Atomic Red Team tests are small, highly portable detection tests mapped to the MITRE ATT&CK Framework. Each test is designed to map back to a particular tactic. This gives defenders a highly actionable way to immediately start testing their defenses against a broad spectrum of attacks."
